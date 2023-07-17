@@ -25,17 +25,17 @@ a:hover {
 /******* HEADER *******/
 header {
     position: relative;
-    padding: 0 2rem;
 }
 
 .navbar {
     width: 100%;
     height: 60px;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #DFD7BF;
+    font-size: 2;
 }
 
 .navbar .logo a {
@@ -77,6 +77,17 @@ header {
 .action_btn:active {
     scale: 0.95;
 }
+
+#search_btn {
+    background-color: white;
+    border: none;
+}
+
+#search_btn:hover {
+    color: rgb(112, 212, 243);
+    cursor: pointer;
+}
+
 
 /******DROPDOWN MENU******/
 .dropdown_menu {
